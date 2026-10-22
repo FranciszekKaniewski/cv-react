@@ -1,1 +1,1 @@
-export const SkillsTemplate = () => (<h1>Skills</h1>)
+export const SkillsTemplate = () => (<h1 id="skills">Skills</h1>)

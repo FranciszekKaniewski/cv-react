@@ -23,6 +23,14 @@
     "downloadCV": "Pobierz CV",
     "phone": "Telefon"
   },
+  "contact": {
+    "title": "Kontakt",
+    "email": "E-mail",
+    "discord": "Discord",
+    "openDiscord": "Otwórz profil Discord w nowej karcie",
+    "residence": "Miejsce zamieszkania:",
+    "location": "Toruń, Polska"
+  },
   "experience": {
     "label": "Moja droga",
     "title": "Doświadczenie",

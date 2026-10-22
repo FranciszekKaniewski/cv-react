@@ -1,0 +1,68 @@
+.button {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+    min-height: 44px;
+    padding: 0.625rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease;
+}
+
+.button--primary {
+    border-color: var(--bg-inverse);
+    background-color: var(--bg-inverse);
+    color: var(--text-inverse);
+}
+
+.button--primary:hover:not(:disabled) {
+    border-color: var(--accent);
+    background-color: color-mix(in srgb, var(--bg-inverse) 88%, var(--bg-color));
+}
+
+.button--secondary {
+    border-color: var(--border-color);
+    background-color: var(--bg-surface);
+    color: var(--text);
+}
+
+.button--secondary:hover:not(:disabled) {
+    border-color: var(--accent);
+    background-color: var(--bg-muted);
+}
+
+.button--outline {
+    border-color: var(--button-outline-color, var(--accent));
+    background-color: transparent;
+    color: var(--button-outline-color, var(--accent));
+}
+
+.button--outline:hover:not(:disabled) {
+    border-color: var(--button-outline-color, var(--accent));
+    background-color: color-mix(in srgb, var(--button-outline-color, var(--accent)) 12%, transparent);
+}
+
+.button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+}
+
+.button:disabled {
+    border-color: var(--border-color);
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .button {
+        transition: none;
+    }
+}

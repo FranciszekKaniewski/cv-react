@@ -21,6 +21,10 @@
   --accent-sec: #D0A472;
   --accent-soft: color-mix(in srgb, var(--accent-sec) 20%, var(--bg-color));
 
+  --contact-bg: var(--bg-surface);
+  --contact-text: var(--text);
+  --contact-accent: var(--accent);
+
   color: var(--text);
   background-color: var(--bg-color);
 
@@ -34,6 +38,7 @@ a {
   font-weight: 500;
   color: var(--accent);
   text-decoration: inherit;
+  cursor: pointer;
 }
 a:hover {
   color: var(--accent-sec);
@@ -44,7 +49,6 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -73,7 +77,7 @@ button:focus-visible {
   outline-offset: 3px;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     color-scheme: light;
 
@@ -92,5 +96,9 @@ button:focus-visible {
     --accent: #926125;
     --accent-sec: #D0A472;
     --accent-soft: color-mix(in srgb, var(--accent-sec) 20%, var(--bg-color));
+
+    --contact-bg: var(--bg-inverse);
+    --contact-text: var(--text-inverse);
+    --contact-accent: var(--accent-sec);
   }
 }

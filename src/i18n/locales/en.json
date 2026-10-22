@@ -23,6 +23,14 @@
     "downloadCV": "Download CV",
     "phone": "Phone"
   },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "discord": "Discord",
+    "openDiscord": "Open Discord profile in a new tab",
+    "residence": "Place of residence:",
+    "location": "Toruń, Poland"
+  },
   "experience": {
     "label": "My journey",
     "title": "Experience",
