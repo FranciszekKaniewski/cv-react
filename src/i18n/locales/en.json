@@ -1,0 +1,81 @@
+{
+  "common": {
+    "loading": "Loading…",
+    "language": "Language",
+    "languages": {
+      "pl": "Polski",
+      "en": "English"
+    },
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "navigation": {
+    "about": "About me",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "welcome": {
+    "label": "Portfolio",
+    "title": "Franciszek Kaniewski",
+    "description": "My developer portfolio.",
+    "viewProjects": "View projects",
+    "downloadCV": "Download CV",
+    "phone": "Phone"
+  },
+  "experience": {
+    "label": "My journey",
+    "title": "Experience",
+    "description": "The steps in my programming journey.",
+    "steps": {
+      "beginnings": {
+        "title": "First steps",
+        "description": "..."
+      },
+      "tech": {
+        "title": "IT technical school, courses and events",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam ex, tempus sit amet dui at, condimentum mollis lacus. Praesent dignissim nisi nec nunc porttitor congue. Quisque sodales turpis sed ipsum tincidunt sollicitudin. Nam facilisis volutpat tortor id ullamcorper."
+      },
+      "uni": {
+        "title": "Full-time studies at Nicolaus Copernicus University in Toruń",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam ex, tempus sit amet dui at, condimentum mollis lacus. Praesent dignissim nisi nec nunc porttitor congue. Quisque sodales turpis sed ipsum tincidunt sollicitudin. Nam facilisis volutpat tortor id ullamcorper."
+      }
+    }
+  },
+  "skills": {
+    "label": "Toolbox",
+    "title": "Skills",
+    "description": "The technologies and tools I use.",
+    "languages": "Programming languages",
+    "frameworks": "Frameworks and libraries",
+    "tools": "Tools",
+    "main": "Daily use",
+    "learning": "Frequently used",
+    "heardAbout": "Familiar with"
+  },
+  "projects": {
+    "label": "Portfolio",
+    "title": "Projects",
+    "description": "From university projects to personal experiments.",
+    "filters": {
+      "all": "All",
+      "university": "University",
+      "courses": "Courses",
+      "personal": "Personal"
+    },
+    "featured": "Featured",
+    "inProgress": "In progress",
+    "viewCode": "View code",
+    "viewDemo": "View demo",
+    "items": {
+      "algorithms": {
+        "title": "Algorithms and data structures",
+        "description": "An example project with implementations of algorithms and data structures."
+      },
+      "money-app": {
+        "title": "Expense and investment management app",
+        "description": "An example app for managing expenses and investments."
+      }
+    }
+  }
+}

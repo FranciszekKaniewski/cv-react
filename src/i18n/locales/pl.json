@@ -1,0 +1,81 @@
+{
+  "common": {
+    "loading": "Ładowanie…",
+    "language": "Język",
+    "languages": {
+      "pl": "Polski",
+      "en": "English"
+    },
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu"
+  },
+  "navigation": {
+    "about": "O mnie",
+    "experience": "Doświadczenie",
+    "skills": "Umiejętności",
+    "projects": "Projekty"
+  },
+  "welcome": {
+    "label": "Portfolio",
+    "title": "Franciszek Kaniewski",
+    "description": "Moje portfolio programistyczne.",
+    "viewProjects": "Zobacz projekty",
+    "downloadCV": "Pobierz CV",
+    "phone": "Telefon"
+  },
+  "experience": {
+    "label": "Moja droga",
+    "title": "Doświadczenie",
+    "description": "Moje kolejne kroki w programowaniu.",
+    "steps": {
+      "beginnings": {
+        "title": "Pierwsze kroki",
+        "description": "..."
+      },
+      "tech": {
+        "title": "Techinkum Informatyczne, kursy i wydarzenia",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam ex, tempus sit amet dui at, condimentum mollis lacus. Praesent dignissim nisi nec nunc porttitor congue. Quisque sodales turpis sed ipsum tincidunt sollicitudin. Nam facilisis volutpat tortor id ullamcorper."
+      },
+      "uni": {
+        "title": "Studia stacjonarne na Uniwersytecie Mikołaja Kompernika w Toruniu",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam ex, tempus sit amet dui at, condimentum mollis lacus. Praesent dignissim nisi nec nunc porttitor congue. Quisque sodales turpis sed ipsum tincidunt sollicitudin. Nam facilisis volutpat tortor id ullamcorper."
+      }
+    }
+  },
+  "skills": {
+    "label": "Warsztat",
+    "title": "Umiejętności",
+    "description": "Technologie i narzędzia, z których korzystam.",
+    "languages": "Języki programowania",
+    "frameworks": "Frameworki i biblioteki",
+    "tools": "Narzędzia",
+    "main": "Na co dzień",
+    "learning": "Sporo urzywane",
+    "heardAbout": "Zapoznane"
+  },
+  "projects": {
+    "label": "Portfolio",
+    "title": "Projekty",
+    "description": "Od projektów na uczelni po własne eksperymenty.",
+    "filters": {
+      "all": "Wszystkie",
+      "university": "Uczelniane",
+      "courses": "Kursy",
+      "personal": "Własne"
+    },
+    "featured": "Wyróżniony",
+    "inProgress": "W trakcie realizacji",
+    "viewCode": "Zobacz kod",
+    "viewDemo": "Zobacz demo",
+    "items": {
+      "algorithms": {
+        "title": "Algorytmy i struktury danych",
+        "description": "Przykładowy projekt z implementacjami algorytmów i struktur danych."
+      },
+      "money-app": {
+        "title": "Aplikacja do zarządzania wydatkami i inwestycjami",
+        "description": "Przykładowy aplikacja do zarządzania wydatkami i inwestycjami."
+      }
+    }
+  }
+}

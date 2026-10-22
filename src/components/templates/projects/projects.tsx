@@ -1,0 +1,1 @@
+export const ProjectsTemplate = () => (<h1>Projects</h1>)

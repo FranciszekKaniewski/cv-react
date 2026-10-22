@@ -1,0 +1,1 @@
+export const SkillsTemplate = () => (<h1>Skills</h1>)
