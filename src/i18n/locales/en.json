@@ -35,18 +35,28 @@
     "label": "My journey",
     "title": "Experience",
     "description": "The steps in my programming journey.",
+    "selectStep": "Choose an experience stage",
+    "stage": "Stage {{current}} / {{total}}",
     "steps": {
-      "beginnings": {
-        "title": "First steps",
-        "description": "..."
-      },
       "tech": {
-        "title": "IT technical school, courses and events",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam ex, tempus sit amet dui at, condimentum mollis lacus. Praesent dignissim nisi nec nunc porttitor congue. Quisque sodales turpis sed ipsum tincidunt sollicitudin. Nam facilisis volutpat tortor id ullamcorper."
+        "title": "IT technical school, internships and events",
+        "period": "Sep 2019 — May 2023",
+        "description": "I graduated from Zespół Szkół Technicznych nr 3 in Płock with an IT technician qualification.\n I also completed professional internships, working as a computer repair technician and teaching IT classes to students at a local technical high school.\n In 2019 and 2022, I took part in Hackathon Płock, gaining experience in developing projects as part of a team and using Git for version control. I also attended talks by IT industry professionals."
+      },
+      "courses": {
+        "title": "Programming courses",
+        "period": "Sep 2020 — Feb 2024",
+        "description": "I developed my web development skills through courses by Samuraj Programowania and later joined the third edition of MegaK. The course lasted over a year and provided daily learning materials and assignments. It focused mainly on frontend and backend development with JavaScript and TypeScript and concluded with a team project."
+      },
+      "work": {
+        "title": "IT support",
+        "period": "2020 — Present",
+        "description": "I develop and maintain a website and, until recently, also built and managed an online store powered by WordPress. I manage software on company computers and provide ongoing IT support."
       },
       "uni": {
-        "title": "Full-time studies at Nicolaus Copernicus University in Toruń",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam ex, tempus sit amet dui at, condimentum mollis lacus. Praesent dignissim nisi nec nunc porttitor congue. Quisque sodales turpis sed ipsum tincidunt sollicitudin. Nam facilisis volutpat tortor id ullamcorper."
+        "title": "Full-time undergraduate studies at Nicolaus Copernicus University in Toruń",
+        "period": "Oct 2023 — Feb 2027",
+        "description": "With assessment largely based on projects, my studies have given me broad practical experience and taught me to adapt quickly to new technologies.\nDuring my studies, I have attended numerous talks by experts in IT and the sciences.\nI take part in meetings of the computer science student society, through which I have undertaken several academic projects."
       }
     }
   },

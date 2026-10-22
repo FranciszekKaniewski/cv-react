@@ -1,0 +1,74 @@
+.experience-card {
+    box-sizing: border-box;
+    min-width: 0;
+    min-height: 20rem;
+    padding: clamp(1.25rem, 3vw, 1.75rem);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    background-color: var(--bg-surface);
+    color: var(--text);
+}
+
+.experience-card-content {
+    animation: experience-card-appear 220ms ease-out;
+}
+
+.experience-card-stage {
+    display: block;
+    color: var(--accent);
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.experience-card-period {
+    margin-top: 1.125rem;
+}
+
+.experience-card-title {
+    margin: 1.125rem 0 0;
+    font-size: clamp(1.25rem, 2.2vw, 1.5rem);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+    text-wrap: balance;
+}
+
+.experience-card-period + .experience-card-title {
+    margin-top: 0.875rem;
+}
+
+.experience-card-description {
+    margin: 1rem 0 0;
+    color: var(--text-sec);
+    font-size: 0.875rem;
+    line-height: 1.8;
+    overflow-wrap: anywhere;
+    white-space: pre-line;
+}
+
+.experience-card:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
+
+@keyframes experience-card-appear {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .experience-card-content {
+        animation: none;
+    }
+}

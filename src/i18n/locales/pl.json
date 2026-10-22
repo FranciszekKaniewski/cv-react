@@ -35,18 +35,28 @@
     "label": "Moja droga",
     "title": "Doświadczenie",
     "description": "Moje kolejne kroki w programowaniu.",
+    "selectStep": "Wybierz etap doświadczenia",
+    "stage": "Etap {{current}} / {{total}}",
     "steps": {
-      "beginnings": {
-        "title": "Pierwsze kroki",
-        "description": "..."
-      },
       "tech": {
-        "title": "Techinkum Informatyczne, kursy i wydarzenia",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam ex, tempus sit amet dui at, condimentum mollis lacus. Praesent dignissim nisi nec nunc porttitor congue. Quisque sodales turpis sed ipsum tincidunt sollicitudin. Nam facilisis volutpat tortor id ullamcorper."
+        "title": "Technikum informatyczne, praktyki i wydarzenia",
+        "period": "wrz 2019 — maj 2023",
+        "description": "Ukończyłem Zespół Szkół Technicznych nr 3 w Płocku, uzyskując tytuł technika informatyka.\n Odbyłem też praktyki zawodowe w jako serwisant w serwisie komputerowym oraz jako nauczyciel młodszych roczników w sąsiednim Technikum\n W 2019 i 2022 roku uczestniczyłem w wydarzeniu Hackathon Płock, zdobywając doświadczenie w zespołowym tworzeniu projektów oraz korzystaniu z systemu kontroli wersji Git oraz uczestniczyłem w prelekcjach ludzi z branży IT."
+      },
+      "courses": {
+        "title": "Kursy Programowania",
+        "period": "wrz 2020 — lut 2024",
+        "description": "Rozwijałem umiejętności tworzenia aplikacji internetowych, korzystając z kursów Samuraja Programowania puźniej uczestnicząc w trzeciej edycji kursu MegaK. Program MegaK było to ponad roczny kurs z codzennymi materiałami i zadaniami obejmował głównie język JavaScript/TypeScript po stronie frontendu i backendu oraz kończył go projekt zespołowy."
+      },
+      "work": {
+        "title": "Pomoc informatyczna",
+        "period": "2020 — obecnie",
+        "description": "Zajmuję się tworzeniem i administracją strony internetowej oraz do niedawna tworzyłem oraz prowadzeniem sklep internetowy oparty na WordPressie. Zajmuję się oprogramowaniem na komputerach firmowych i zapewniam bieżące wsparcie informatyczne."
       },
       "uni": {
-        "title": "Studia stacjonarne na Uniwersytecie Mikołaja Kompernika w Toruniu",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quam ex, tempus sit amet dui at, condimentum mollis lacus. Praesent dignissim nisi nec nunc porttitor congue. Quisque sodales turpis sed ipsum tincidunt sollicitudin. Nam facilisis volutpat tortor id ullamcorper."
+        "title": "Studia stacjonarne I stopnia na Uniwersytecie Mikołaja Kopernika w Toruniu",
+        "period": "paź 2023 — lut 2027",
+        "description": "Dzięki silnemu naciskowi na projektową formę zaliczeń podczas studiów, zdobyłem szerokie, praktyczne doświadczenie oraz umiejętność szybkiej adaptacji do nowych technologii. \n Podczas stódiów uczęszczałem na liczne prelekcje z ekspertami ze świata IT oraz nauk ścisłych \n Biorę udział w spotkaniach Koła Informatycznego w ramach którego podjołem się paru projektów akademickich."
       }
     }
   },

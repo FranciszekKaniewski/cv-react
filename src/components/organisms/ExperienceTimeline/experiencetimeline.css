@@ -1,0 +1,158 @@
+.experience-timeline {
+    --timeline-row-height: 5.75rem;
+
+    min-width: 0;
+}
+
+.experience-timeline-step {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: minmax(5.5rem, 7.5rem) 1.25rem minmax(0, 1fr);
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    min-height: var(--timeline-row-height);
+    padding: 0;
+    border: 0;
+    border-radius: 6px;
+    background-color: transparent;
+    color: var(--text-sec);
+    font-family: inherit;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.experience-timeline[data-has-periods="false"] .experience-timeline-step {
+    grid-template-columns: 1.25rem minmax(0, 1fr);
+}
+
+.experience-timeline-period {
+    padding: 0.75rem 0;
+    font-size: 0.6875rem;
+    line-height: 1.5;
+    transition: color 180ms ease;
+}
+
+.experience-timeline-marker {
+    position: relative;
+    align-self: stretch;
+}
+
+.experience-timeline-marker::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background-color: var(--border-color);
+    content: "";
+    transform: translateX(-50%);
+    transition: background-color 180ms ease;
+}
+
+.experience-timeline-step:first-child .experience-timeline-marker::before {
+    top: 50%;
+}
+
+.experience-timeline-step:last-child .experience-timeline-marker::before {
+    bottom: 50%;
+}
+
+.experience-timeline-step[data-completed="true"] .experience-timeline-marker::before {
+    background-color: var(--accent-sec);
+}
+
+.experience-timeline-marker::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    width: 0.75rem;
+    height: 0.75rem;
+    border: 1px solid var(--text-sec);
+    border-radius: 50%;
+    background-color: var(--bg-color);
+    content: "";
+    transform: translate(-50%, -50%);
+    transition: width 180ms ease, height 180ms ease, border-color 180ms ease, background-color 180ms ease;
+}
+
+.experience-timeline-content {
+    display: flex;
+    align-items: baseline;
+    gap: 0.875rem;
+    margin: 0.5rem 0;
+    padding: 0.875rem;
+    border-radius: 6px;
+    transition: background-color 180ms ease, color 180ms ease;
+}
+
+.experience-timeline-number {
+    flex-shrink: 0;
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 0.625rem;
+    font-weight: 500;
+}
+
+.experience-timeline-title {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.experience-timeline-step:hover .experience-timeline-content {
+    background-color: var(--bg-muted);
+    color: var(--text);
+}
+
+.experience-timeline-step[aria-selected="true"] .experience-timeline-content {
+    background-color: var(--accent-soft);
+    color: var(--text);
+}
+
+.experience-timeline-step[aria-selected="true"] .experience-timeline-title {
+    font-weight: 650;
+}
+
+.experience-timeline-step[aria-selected="true"] .experience-timeline-period,
+.experience-timeline-step[aria-selected="true"] .experience-timeline-number {
+    color: var(--accent);
+}
+
+.experience-timeline-step[aria-selected="true"] .experience-timeline-marker::after {
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid var(--accent-sec);
+    background-color: var(--accent-soft);
+}
+
+.experience-timeline-step:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.experience-timeline-step:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
+
+@media (max-width: 640px) {
+    .experience-timeline-step {
+        grid-template-columns: minmax(0, 5.5rem) 1rem minmax(0, 1fr);
+        gap: 0.5rem;
+    }
+
+    .experience-timeline-content {
+        gap: 0.5rem;
+        padding: 0.75rem 0.625rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .experience-timeline-period,
+    .experience-timeline-content,
+    .experience-timeline-marker::before,
+    .experience-timeline-marker::after {
+        transition: none;
+    }
+}
