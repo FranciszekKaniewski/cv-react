@@ -1,0 +1,22 @@
+.technology-badge {
+    min-height: 1.875rem;
+    padding: 0.25rem 0.5rem;
+    border-color: transparent;
+    font-size: 0.6875rem;
+    transition: border-color 180ms ease, transform 180ms ease;
+}
+
+.technology-badge:hover {
+    border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+    transform: translateY(-1px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .technology-badge {
+        transition: none;
+    }
+
+    .technology-badge:hover {
+        transform: none;
+    }
+}
