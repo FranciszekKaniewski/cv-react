@@ -20,6 +20,14 @@
   --accent: #E2B57E;
   --accent-sec: #D0A472;
   --accent-soft: color-mix(in srgb, var(--accent-sec) 20%, var(--bg-color));
+  --filter-led: #7DD3FC;
+  --filter-led-glow: #22D3EE;
+  --filter-led-soft: color-mix(in srgb, var(--filter-led-glow) 10%, var(--bg-surface));
+  --featured-border: #E9BF43;
+  --featured-text: #F2D46B;
+  --in-progress-border: #4ADE80;
+  --in-progress-text: #86EFAC;
+  --in-progress-glow: #22C55E;
 
   --contact-bg: var(--bg-surface);
   --contact-text: var(--text);
@@ -96,6 +104,14 @@ button:focus-visible {
     --accent: #926125;
     --accent-sec: #D0A472;
     --accent-soft: color-mix(in srgb, var(--accent-sec) 20%, var(--bg-color));
+    --filter-led: #007B91;
+    --filter-led-glow: #22D3EE;
+    --filter-led-soft: color-mix(in srgb, var(--filter-led-glow) 10%, var(--bg-surface));
+    --featured-border: #DBB02F;
+    --featured-text: #86630C;
+    --in-progress-border: #22A25D;
+    --in-progress-text: #166534;
+    --in-progress-glow: #22C55E;
 
     --contact-bg: var(--bg-inverse);
     --contact-text: var(--text-inverse);

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="bg" x2="800" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#E8E8DD"/><stop offset="1" stop-color="#CCD3C4"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#536248" stroke-opacity=".08"/></pattern>
+    <pattern id="tiles" width="28" height="28" patternUnits="userSpaceOnUse"><rect width="28" height="28" fill="#89977A"/><path d="M4 9h4m10 13h4" stroke="#A2AD91" stroke-width="2"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dy="12" stdDeviation="18" flood-color="#22241F" flood-opacity=".14"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v450H0z"/><path fill="url(#grid)" d="M0 0h800v450H0z"/>
+  <g filter="url(#shadow)">
+    <rect x="60" y="48" width="680" height="354" rx="14" fill="#F8F7F4"/>
+    <path d="M60 62a14 14 0 0 1 14-14h652a14 14 0 0 1 14 14v30H60z" fill="#22241F"/>
+    <g fill="#70736B"><circle cx="82" cy="70" r="4"/><circle cx="96" cy="70" r="4"/><circle cx="110" cy="70" r="4"/></g>
+    <text x="140" y="75" fill="#D0B48C" font-family="Consolas,monospace" font-size="13">SDL / WORLD</text>
+    <rect x="80" y="112" width="420" height="268" rx="5" fill="#7D9DA0"/>
+    <path d="M108 168h56v-28h224v28h56v56h28v100h-56v28H164v-28h-56z" fill="#C4B695"/>
+    <path d="M136 196h56v-28h168v28h56v56h28v44h-56v28H192v-28h-56z" fill="url(#tiles)"/>
+    <path d="M192 252h196M276 168v156" stroke="#C4B695" stroke-width="22"/>
+    <path d="M251 223h50v58h-50z" stroke="#F2E4BF" stroke-width="2" stroke-dasharray="5 4"/>
+    <rect x="266" y="237" width="20" height="24" rx="2" fill="#263A32"/><rect x="270" y="231" width="12" height="10" rx="2" fill="#E2C79E"/>
+    <path d="M530 112v268" stroke="#E3E2DA"/>
+    <text x="552" y="138" fill="#70736B" font-family="Consolas,monospace" font-size="12">COMPONENTS</text>
+    <g fill="#ECEDE5"><rect x="550" y="156" width="168" height="48" rx="5"/><rect x="550" y="216" width="168" height="48" rx="5"/><rect x="550" y="276" width="168" height="48" rx="5"/></g>
+    <g fill="#455540" font-family="Consolas,monospace" font-size="12"><text x="564" y="176">Transform</text><text x="564" y="236">Sprite</text><text x="564" y="296">Camera</text></g>
+    <g fill="#ADB7A0"><rect x="564" y="186" width="97" height="5" rx="2"/><rect x="564" y="246" width="124" height="5" rx="2"/><rect x="564" y="306" width="78" height="5" rx="2"/></g>
+    <path d="m558 350 7 4-7 4z" fill="#637C51"/><text x="579" y="359" fill="#637C51" font-family="Consolas,monospace" font-size="12">ECS / C++17</text>
+  </g>
+</svg>

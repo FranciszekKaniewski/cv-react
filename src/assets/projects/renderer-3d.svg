@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="bg" x2="800" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#E2E7EA"/><stop offset="1" stop-color="#CCD2D5"/></linearGradient>
+    <linearGradient id="scene" x1="300" y1="100" x2="300" y2="370" gradientUnits="userSpaceOnUse"><stop stop-color="#29353B"/><stop offset="1" stop-color="#485A60"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#526770" stroke-opacity=".08"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dy="12" stdDeviation="18" flood-color="#22241F" flood-opacity=".14"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v450H0z"/><path fill="url(#grid)" d="M0 0h800v450H0z"/>
+  <g filter="url(#shadow)">
+    <rect x="60" y="48" width="680" height="354" rx="14" fill="#F8F7F4"/>
+    <path d="M60 62a14 14 0 0 1 14-14h652a14 14 0 0 1 14 14v30H60z" fill="#22241F"/>
+    <g fill="#70736B"><circle cx="82" cy="70" r="4"/><circle cx="96" cy="70" r="4"/><circle cx="110" cy="70" r="4"/></g>
+    <text x="140" y="75" fill="#AEC0C5" font-family="Consolas,monospace" font-size="13">SOFTWARE RENDERER / 3D</text>
+    <rect x="80" y="112" width="442" height="268" rx="5" fill="url(#scene)"/>
+    <g stroke="#A9BCBF" stroke-opacity=".22"><path d="M80 270h442M80 293h442M80 329h442M80 375h442M301 212 90 380M301 212l-90 168M301 212v168M301 212l100 168M301 212l215 168"/></g>
+    <ellipse cx="303" cy="318" rx="133" ry="19" fill="#202D32" fill-opacity=".5"/>
+    <path d="m171 270 82-39 162 31-81 51z" fill="#B58254"/>
+    <path d="m171 270 163 43v32l-163-43z" fill="#8C5C3B"/><path d="m334 313 81-51v32l-81 51z" fill="#714C36"/>
+    <path d="m220 257 37-51 83 18 32 58-38 31z" fill="#D0A472"/>
+    <path d="m257 206 83 18-5 48-90-20z" fill="#C0CBCD"/><path d="m340 224 32 58-37-10z" fill="#80979E"/>
+    <path d="m245 252 90 20-1 41-114-56z" fill="#C29161"/>
+    <g fill="#243036" stroke="#65777B" stroke-width="5"><ellipse cx="210" cy="309" rx="18" ry="24" transform="rotate(-14 210 309)"/><ellipse cx="310" cy="336" rx="18" ry="24" transform="rotate(-14 310 336)"/><ellipse cx="391" cy="302" rx="14" ry="21" transform="rotate(19 391 302)"/></g>
+    <g stroke="#E7D9BB" stroke-dasharray="4 5" stroke-opacity=".6"><path d="m138 158 127 69M453 160l-85 86"/></g>
+    <circle cx="138" cy="158" r="7" fill="#E5C68E"/><circle cx="453" cy="160" r="7" fill="#AFC6BF"/>
+    <text x="550" y="137" fill="#70736B" font-family="Consolas,monospace" font-size="12">RENDER MODE</text>
+    <rect x="545" y="156" width="173" height="35" rx="5" fill="#E4E9E8"/>
+    <g font-family="Consolas,monospace" font-size="12"><text x="560" y="178" fill="#42616B">01 / PHONG</text><text x="560" y="218" fill="#8C9695">02 / NORMALS</text><text x="560" y="258" fill="#8C9695">03 / WIREFRAME</text></g>
+    <path d="M550 284h163" stroke="#E3E2DA"/>
+    <g stroke-width="2"><path d="M574 345h51" stroke="#B77E65"/><path d="M574 345v-39" stroke="#7C9D79"/><path d="m574 345 31-28" stroke="#7E9DAE"/></g>
+  </g>
+</svg>

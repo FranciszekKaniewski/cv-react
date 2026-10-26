@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="bg" x2="800" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#EDE3DC"/><stop offset="1" stop-color="#DCCFC5"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#8C6B57" stroke-opacity=".08"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dy="12" stdDeviation="18" flood-color="#22241F" flood-opacity=".14"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v450H0z"/><path fill="url(#grid)" d="M0 0h800v450H0z"/>
+  <g filter="url(#shadow)">
+    <rect x="75" y="56" width="650" height="338" rx="14" fill="#F8F7F4"/>
+    <path d="M75 70a14 14 0 0 1 14-14h622a14 14 0 0 1 14 14v30H75z" fill="#22241F"/>
+    <g fill="#70736B"><circle cx="97" cy="78" r="4"/><circle cx="111" cy="78" r="4"/><circle cx="125" cy="78" r="4"/></g>
+    <text x="155" y="83" fill="#D9B6A0" font-family="Consolas,monospace" font-size="13">SANTALIST / GIFT ORGANISER</text>
+    <rect x="97" y="121" width="274" height="251" rx="7" fill="#EEEBE3"/>
+    <text x="117" y="148" fill="#8E715D" font-family="Consolas,monospace" font-size="12">RECIPIENTS</text>
+    <g fill="#F8F7F4"><rect x="111" y="168" width="246" height="48" rx="5"/><rect x="111" y="228" width="246" height="48" rx="5"/><rect x="111" y="288" width="246" height="48" rx="5"/></g>
+    <g fill="#D1B291"><circle cx="135" cy="192" r="11"/><circle cx="135" cy="252" r="11"/><circle cx="135" cy="312" r="11"/></g>
+    <g fill="#AA9581"><rect x="157" y="185" width="70" height="6" rx="3"/><rect x="157" y="245" width="89" height="6" rx="3"/><rect x="157" y="305" width="60" height="6" rx="3"/></g>
+    <g fill="#D8D3C7"><rect x="157" y="198" width="112" height="4" rx="2"/><rect x="157" y="258" width="98" height="4" rx="2"/><rect x="157" y="318" width="124" height="4" rx="2"/></g>
+    <g stroke="#92A084" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m318 190 5 5 9-10M318 250l5 5 9-10M318 310l5 5 9-10"/></g>
+    <circle cx="551" cy="212" r="76" fill="#F1E7D9"/>
+    <path d="M503 199h96v66h-96z" fill="#9BA88D"/><rect x="497" y="187" width="108" height="21" rx="3" fill="#B1BDA3"/>
+    <path d="M543 187h16v78h-16z" fill="#E2C49A"/><path d="M551 187c-41 0-45-30-29-30 12 0 24 17 29 30zm0 0c41 0 45-30 29-30-12 0-24 17-29 30z" stroke="#C29A67" stroke-width="6" stroke-linejoin="round"/>
+    <rect x="421" y="305" width="260" height="50" rx="6" fill="#EEEAE1"/>
+    <path d="m440 325 5 5 9-10" stroke="#92A084" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="469" y="328" fill="#8E715D" font-family="Consolas,monospace" font-size="12">GIFTS / ASSIGNED</text>
+    <rect x="469" y="338" width="126" height="5" rx="2" fill="#D1B291"/>
+  </g>
+</svg>

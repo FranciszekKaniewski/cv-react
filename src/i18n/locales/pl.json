@@ -82,17 +82,238 @@
       "personal": "Własne"
     },
     "featured": "Wyróżniony",
+    "group": "Projekt grupowy",
+    "categoryFilter": "Filtruj projekty według kategorii",
+    "propertyFilters": "Dodatkowe filtry projektów",
+    "technologyFilter": "Filtruj projekty według technologii",
+    "technologies": "Technologie projektu",
+    "technologyHint": "Możesz łączyć filtry. Projekt musi zawierać wszystkie wybrane technologie.",
+    "resetFilters": "Wyczyść filtry",
+    "resultCount": "Projekty: {{count}} z {{total}}",
+    "only": {
+      "featured": "Tylko wyróżnione projekty",
+      "group": "Tylko projekty grupowe",
+      "demo": "Tylko projekty z demo"
+    },
+    "empty": {
+      "title": "Brak pasujących projektów",
+      "description": "Zmień wybrane filtry lub wyczyść je, aby zobaczyć wszystkie projekty."
+    },
+    "codeFor": "Kod projektu {{title}} na GitHubie (nowa karta)",
+    "frontendCode": "Frontend",
+    "backendCode": "Backend",
+    "frontendCodeFor": "Kod frontendu projektu {{title}} na GitHubie (nowa karta)",
+    "backendCodeFor": "Kod backendu projektu {{title}} na GitHubie (nowa karta)",
+    "demoFor": "Demo projektu {{title}} (nowa karta)",
     "inProgress": "W trakcie realizacji",
     "viewCode": "Zobacz kod",
     "viewDemo": "Zobacz demo",
+    "createdIn": "Rok utworzenia: {{year}}",
+    "developmentPeriod": "Okres realizacji: {{from}}–{{to}}",
+    "downloadApp": "Pobierz aplikację",
+    "visitWebsite": "Strona projektu",
+    "downloadFor": "Pobierz aplikację: {{title}}",
+    "websiteFor": "Otwórz stronę projektu {{title}} (nowa karta)",
+    "viewDetails": "Poznaj projekt",
+    "openDetails": "Otwórz szczegóły projektu: {{title}}",
+    "modal": {
+      "caseStudy": "Szczegóły projektu",
+      "close": "Zamknij szczegóły projektu",
+      "overview": "O projekcie",
+      "gallery": "Galeria projektu",
+      "galleryControls": "Galeria zdjęć. Użyj strzałek w lewo i w prawo, aby zmienić zdjęcie.",
+      "previousImage": "Poprzednie zdjęcie",
+      "nextImage": "Następne zdjęcie",
+      "imageCount": "Zdjęcie {{current}} z {{total}}",
+      "imageAlt": "{{title}} — zdjęcie {{index}}",
+      "showImage": "Pokaż zdjęcie {{index}}: {{title}}",
+      "chooseImage": "Wybierz zdjęcie projektu",
+      "swipeHint": "Przesuń zdjęcie lub użyj strzałek"
+    },
     "items": {
+      "vetclinic-ai": {
+        "title": "VetClinic AI — zarządzanie kliniką weterynaryjną",
+        "description": "Projekt uczelniany realizowany w sześcioosobowym zespole na zajęciach „Programowanie zespołowe”. Zaprezentowany w auli Wydziału Matematyki i Informatyki UMK w Toruniu.",
+        "details": "VetClinic AI to projekt aplikacji do zarządzania kliniką weterynaryjną, realizowany w sześcioosobowym zespole w ramach zajęć „Programowanie zespołowe” na Uniwersytecie Mikołaja Kopernika w Toruniu. Projekt został zaprezentowany w auli Wydziału Matematyki i Informatyki UMK.\n\nAplikacja obejmuje ewidencję zwierząt i ich właścicieli, umawianie wizyt oraz cyfrową dokumentację medyczną. Odpowiadałem za prowadzenie prac nad frontendem i projektowanie UI/UX. Frontend wykorzystuje React i TypeScript, a backend NestJS, TypeORM i MySQL.\n\nPodlinkowana strona prezentuje założenia projektu, zespół, przebieg prac i dokumentację. Galeria zawiera rzeczywisty zrzut tej strony.",
+        "gallery": {
+          "presentation": {
+            "title": "Strona prezentacyjna VetClinic AI",
+            "alt": "Rzeczywisty zrzut strony prezentacyjnej VetClinic AI z opisem projektu, listą funkcji i logo Uniwersytetu Mikołaja Kopernika w Toruniu."
+          }
+        }
+      },
+      "school-diary": {
+        "title": "Dziennik szkolny",
+        "description": "Prosta konsolowa aplikacja obiektowa w C++ na zajęcia „Podstawy programowania”. Wczytuje dane uczniów, oblicza średnie ocen i podsumowuje przyznane nagrody.",
+        "details": "Projekt z zajęć „Podstawy programowania”, służący nauce programowania obiektowego w C++. Klasy Student i Group opisują uczniów, ich oceny oraz grupy. Program wczytuje dane z pliku tekstowego i wykonuje obliczenia dla poszczególnych uczniów oraz całych grup.\n\nAplikacja oblicza średnie ocen, wyszukuje najlepsze wyniki w grupach i całej szkole oraz zlicza nagrody przyznawane według ocen i zachowania. Ćwiczenie obejmuje klasy, konstruktory, destruktory, konstruktor kopiujący, dynamiczną pamięć i obsługę plików. Wyniki są wyświetlane w konsoli."
+      },
+      "text-analyzer": {
+        "title": "Analizator tekstu",
+        "description": "Projekt w C++ z zajęć „Algorytmy i struktury danych”. Analizuje częstość słów i znaków oraz wykorzystuje odległość Levenshteina do wskazywania podobnych słów.",
+        "details": "Konsolowy projekt z zajęć „Algorytmy i struktury danych”, napisany w C++. Program pozwala wczytać i wyświetlić plik tekstowy, obliczyć częstość występowania znaków oraz wskazać najrzadsze i najczęstsze słowa. Do zliczania i porządkowania wyników wykorzystuje mapy oraz multimapy.\n\nWłasna implementacja odległości Levenshteina porównuje słowa podane przez użytkownika ze słownikiem z wczytanego pliku. Dla słów, których w nim nie ma, program proponuje podobne słowo. Projekt łączy pracę z plikami, kontenerami biblioteki standardowej i algorytmem porównywania tekstu."
+      },
+      "family-tree": {
+        "title": "Drzewo genealogiczne",
+        "description": "Konsolowy projekt w C++ z zajęć „Algorytmy i struktury danych”. Obsługuje drzewo rodzinne, edycję osób, zapis do pliku i wyznaczanie poziomu pokrewieństwa.",
+        "details": "Projekt z zajęć „Algorytmy i struktury danych”, wykorzystujący strukturę drzewa do przechowywania relacji rodzinnych. Aplikacja w C++ pozwala utworzyć drzewo, dodawać i edytować osoby, usuwać liście oraz wyświetlać kolejne poziomy drzewa w konsoli. Każda osoba ma identyfikator, imię, nazwisko i datę urodzenia.\n\nProgram wczytuje drzewo z pliku i zapisuje jego strukturę. Wyszukiwanie osób i wyświetlanie poziomów korzysta z przeszukiwania wszerz oraz kolejki. Ścieżki prowadzące od wskazanych osób do korzenia są wykorzystywane do wyznaczania poziomu pokrewieństwa."
+      },
+      "calendar-scheduler": {
+        "title": "Calendar Scheduler — kalendarz zadań",
+        "description": "Uczelniany projekt bazodanowy: kalendarz zadań z widokiem dnia, tygodnia i miesiąca. React i TypeScript połączone z API NestJS oraz MySQL przez TypeORM.",
+        "details": "Projekt uczelniany z baz danych, realizowany na pierwszym roku informatyki inżynierskiej na UMK. Calendar Scheduler pozwala planować zadania, przeglądać je w widoku dnia, tygodnia i miesiąca, edytować terminy, oznaczać wykonanie oraz usuwać wpisy. Aplikacja zawiera również przypomnienia o zadaniach.\n\nFrontend powstał w React i TypeScript, a backend w NestJS. Dane są przechowywane w MySQL z wykorzystaniem TypeORM oraz zapytań SQL. Reguły planowania rozróżniają zadania hard i soft, sprawdzają kolizje terminów oraz dostępny czas.\n\nZrzuty w galerii pochodzą z rzeczywistego lokalnego uruchomienia aplikacji z przykładowymi zadaniami.",
+        "gallery": {
+          "week": {
+            "title": "Widok tygodnia — przykładowe zadania",
+            "alt": "Rzeczywisty zrzut Calendar Scheduler z lokalnego uruchomienia: tygodniowy kalendarz z trzema przykładowymi zadaniami i godzinami ich rozpoczęcia oraz zakończenia."
+          },
+          "month": {
+            "title": "Widok miesiąca",
+            "alt": "Rzeczywisty zrzut Calendar Scheduler: miesięczny kalendarz z przykładowymi zadaniami na październik 2026."
+          },
+          "task": {
+            "title": "Szczegóły i edycja zadania",
+            "alt": "Rzeczywisty zrzut Calendar Scheduler: formularz zadania Nauka SQL z terminami, typem hard, opcją przypomnienia i przyciskami zapisu, oznaczenia wykonania oraz usuwania."
+          }
+        }
+      },
+      "mega-map": {
+        "title": "Mega Ogłoszenia — mapa ogłoszeń",
+        "description": "Projekt ćwiczeniowy z 3. edycji kursu MegaK, służący nauce podstaw Reacta, Expressa i TypeScriptu. Aplikacja z ogłoszeniami prezentowanymi na interaktywnej mapie.",
+        "details": "Mega Ogłoszenia to projekt realizowany w ramach 3. edycji kursu MegaK. Służył nauce podstaw Reacta, Expressa i TypeScriptu oraz łączenia frontendu z backendem. To jedno z moich ćwiczeń z początkowego etapu nauki tych technologii.\n\nAplikacja prezentuje ogłoszenia na interaktywnej mapie. Zrzuty ekranu pokazują znaczniki z okienkiem zawierającym tytuł, cenę, opis i odnośnik do ogłoszenia oraz widok mapy Płocka. Frontend powstał w React i TypeScript, a backend w Node.js z Express i biblioteką do obsługi MySQL. Kod obu części znajduje się w osobnych repozytoriach.",
+        "gallery": {
+          "overview": {
+            "title": "Mapa ogłoszeń ze szczegółami wpisu",
+            "alt": "Zrzut ekranu Mega Ogłoszenia: mapa ze znacznikami i otwartym okienkiem ogłoszenia zawierającym cenę, opis i link."
+          },
+          "plock": {
+            "title": "Widok mapy Płocka",
+            "alt": "Zrzut ekranu Mega Ogłoszenia: mapa Płocka i okolic z paskiem wyszukiwania i przyciskiem Dodaj ogłoszenie."
+          }
+        }
+      },
+      "to-do": {
+        "title": "To-do — prosty serwer API",
+        "description": "Prosty serwer aplikacji To-do w Node.js i Express, z bazą MongoDB. Projekt wykonany jako zadanie z backendowej części kursu Samuraja Programowania „Node.js, Express i MongoDB”.",
+        "details": "Prosty serwer REST API dla aplikacji To-do, napisany w JavaScript z wykorzystaniem Node.js i Express. Projekt wykonałem jako zadanie z backendowej części kursu Samuraja Programowania „Node.js, Express i MongoDB”.\n\nProjekt obejmuje trasy do pobierania listy i pojedynczej notatki oraz dodawania, aktualizacji i usuwania wpisów. Każdy wpis zawiera tytuł i treść. Dane są przechowywane w MongoDB, a ich model i operacje na bazie obsługuje Mongoose. Zadanie służyło nauce tworzenia prostego serwera, obsługi żądań HTTP i pracy z bazą danych.",
+        "gallery": {
+          "overview": {
+            "title": "Ilustracja serwera API To-do",
+            "alt": "Koncepcyjna ilustracja tras GET, POST, PUT i DELETE serwera To-do w Express, połączonego z bazą MongoDB."
+          }
+        }
+      },
+      "game-engine": {
+        "title": "Silnik gier 2D — projekt MMO - Praca inż.",
+        "description": "Autorski silnik w C++ i SDL2: architektura ECS, sceny, animacje, kamera, audio i własny system UI. Rozwijany jako podstawa projektu MMO, z testami w Catch2.",
+        "details": "Rozwijany projekt silnika gier 2D w C++17 i SDL2. Architektura ECS rozdziela encje, komponenty i systemy odpowiedzialne za ruch, animacje oraz kamerę. Silnik obsługuje sceny, tekstury, dźwięk i mapy kafelkowe wczytywane z eksportów JSON oraz PNG.\n\nWłasny system interfejsu udostępnia przyciski, pola tekstowe, suwaki, checkboxy i listy wyboru. Repozytorium zawiera testy jednostkowe, integracyjne i scenariusze pętli gry w Catch2, obejmujące m.in. kamerę, skalowanie, animacje i bilans alokacji pamięci. To obecnie fundament rozwijanego projektu MMO; część serwerowa w Erlangu jest na etapie szkieletu aplikacji.",
+        "gallery": {
+          "overview": {
+            "title": "Ilustracja architektury silnika 2D",
+            "alt": "Koncepcyjna ilustracja edytora silnika z mapą kafelkową, obiektem gracza i panelem komponentów ECS."
+          }
+        }
+      },
+      "renderer-3d": {
+        "title": "Renderer 3D w C++ i Qt",
+        "description": "Programowy renderer sceny 3D z modelem samochodu. Własne przekształcenia, teksturowanie, bufor głębokości i oświetlenie Phonga w aplikacji Qt.",
+        "details": "Projekt uczelniany pokazujący kolejne etapy renderowania sceny 3D. Aplikacja w C++ i Qt rysuje obraz do QImage, korzystając z własnej logiki przekształceń geometrycznych, kamery, teksturowania i bufora głębokości. Scena zawiera samochód, podłoże i kolorowe źródła światła.\n\nSterowanie klawiaturą pozwala poruszać samochodem i zmieniać ustawienia widoku. Można przełączać tryby rysowania, tekstury, interpolację oraz obrysy geometrii, a także porównać oświetlenie z modelem Phonga. Projekt obejmuje konfigurację CMake i Dockerfile.",
+        "gallery": {
+          "triangle-mesh": {
+            "title": "Siatka trójkątów sceny",
+            "alt": "Zrzut aplikacji renderera 3D w C++: samochód, podłoże i obiekty sceny przedstawione jako gęsta siatka trójkątów."
+          },
+          "wireframe": {
+            "title": "Widok szkieletowy",
+            "alt": "Zrzut renderera 3D: krawędzie samochodu i podłoża w widoku perspektywicznym, bez wypełnienia i tekstur."
+          },
+          "textures": {
+            "title": "Tekstury i obrysy geometrii",
+            "alt": "Zrzut renderera 3D: czerwony samochód na teksturowanym zielonym podłożu, droga w tle i widoczne obrysy geometrii."
+          },
+          "lighting": {
+            "title": "Scena z oświetleniem",
+            "alt": "Zrzut renderera 3D: przyciemniona scena z czerwonym samochodem i ciepłym światłem oświetlającym podłoże."
+          },
+          "colored-lights": {
+            "title": "Kolorowe źródła światła",
+            "alt": "Zrzut renderera 3D: samochód i podłoże oświetlone kolorowymi źródłami światła, z ciepłą poświatą po lewej i niebieską po prawej."
+          }
+        }
+      },
+      "shooting-game": {
+        "title": "Arena Bitwy — gra sieciowa",
+        "description": "Gra wieloosobowa z klientem React i Canvas oraz serwerem Erlang/OTP. WebSocket synchronizuje ruch, strzały, kolizje i wyniki graczy w czasie rzeczywistym.",
+        "details": "Uczelniany projekt gry wieloosobowej łączący programowanie funkcyjne z aplikacją przeglądarkową. Serwer w Erlangu korzysta z OTP, procesu gen_server i drzewa nadzoru. Zarządza stanem areny, ruchem, wykrywaniem trafień i punktacją, rozsyłając aktualizacje co 100 ms przez WebSocket obsługiwany przez Cowboy.\n\nFrontend w React i JavaScript rysuje planszę w Canvas, obsługuje sterowanie klawiaturą i pokazuje ranking oraz wynik po przegranej. Komunikacja odbywa się przez wiadomości JSON. Frontend i backend są dostępne w osobnych repozytoriach.",
+        "gallery": {
+          "arena": {
+            "title": "Rozgrywka i tabela wyników",
+            "alt": "Zrzut Areny Bitwy: plansza z dwoma graczami, status połączenia, tabela wyników i instrukcja sterowania klawiaturą."
+          },
+          "defeat": {
+            "title": "Ekran przegranej",
+            "alt": "Zrzut Areny Bitwy: ekran przegranej z komunikatem „Nie żyjesz”, identyfikatorem przeciwnika, wynikiem i przyciskiem „Zagraj ponownie”."
+          }
+        }
+      },
+      "vet-manager": {
+        "title": "Vet Manager — kartoteka zwierząt",
+        "description": "Indywidualny projekt końcowy kursu MegaK. Aplikacja do prowadzenia kartoteki zwierząt z kontami użytkowników, dodawaniem, edycją i usuwaniem danych pupili. React, TypeScript, Express i MySQL.",
+        "details": "Vet Manager zrealizowałem samodzielnie jako indywidualny projekt końcowy kursu MegaK. Aplikacja służy do zarządzania informacjami o zwierzętach. Użytkownik może zarejestrować konto, zalogować się i prowadzić kartoteki zawierające imię, datę urodzenia, gatunek oraz rasę pupila. Interfejs pozwala dodawać, edytować i usuwać wpisy oraz sygnalizuje niezapisane zmiany.\n\nFrontend powstał w React i TypeScript, a osobny backend w Node.js i Express korzysta z MySQL. Logowanie wykorzystuje JWT i bcrypt. Zaimplementowany zakres obejmuje konta i kartotekę; obsługa wizyt pozostaje planowaną funkcją. Kod obu warstw jest dostępny w osobnych repozytoriach.",
+        "gallery": {
+          "overview": {
+            "title": "Kartoteka zwierzęcia",
+            "alt": "Zrzut ekranu Vet Manager: panel zalogowanego użytkownika z wyborem zwierzęcia, danymi psa Jonny i przyciskiem edycji."
+          }
+        }
+      },
+      "santa-list": {
+        "title": "SantaList — organizer prezentów",
+        "description": "Projekt ćwiczeniowy z 3. edycji kursu MegaK, wykonany na początku nauki TypeScriptu, Expressa i Reacta. Prosta aplikacja do zarządzania listą dzieci i prezentami.",
+        "details": "SantaList realizowałem w ramach 3. edycji kursu MegaK. Był to projekt do początkowej nauki TypeScriptu, Expressa i Reacta, służący przećwiczeniu podstaw tych technologii oraz komunikacji frontendu z backendem.\n\nAplikacja pozwala przeglądać listę dzieci, przypisywać im prezenty oraz dodawać, edytować i usuwać upominki. Frontend powstał w React, serwer w Node.js z Express, a dane są przechowywane w MySQL. TypeScript jest używany w obu częściach aplikacji. Galeria przedstawia rzeczywiste zrzuty ekranu projektu.",
+        "gallery": {
+          "children": {
+            "title": "Lista dzieci i przypisywanie prezentów",
+            "alt": "Zrzut ekranu Santa List Manager: lista dzieci z wyborem prezentu dla każdego dziecka i przyciskiem Save."
+          },
+          "presents": {
+            "title": "Lista prezentów — edycja i usuwanie",
+            "alt": "Zrzut ekranu Santa List Manager: lista prezentów z polami nazwy i wartości, przyciskami usuwania oraz przyciskiem Save."
+          },
+          "add-present": {
+            "title": "Dodawanie nowego prezentu",
+            "alt": "Zrzut ekranu Santa List Manager: formularz dodawania prezentu z polami name i value oraz przyciskiem Add."
+          }
+        }
+      },
       "algorithms": {
         "title": "Algorytmy i struktury danych",
-        "description": "Przykładowy projekt z implementacjami algorytmów i struktur danych."
+        "description": "Zespołowy projekt uczelniany z interaktywną wizualizacją grafów. Interfejs w React i TypeScript oraz algorytmy zaimplementowane w C++ z API opartym na Crow.",
+        "details": "Zespołowy projekt uczelniany łączący algorytmy i struktury danych z interaktywną aplikacją internetową. Wizualna prezentacja grafów pozwala zestawić ich strukturę z obliczeniami wykonywanymi po stronie serwera i spojrzeć na zadania algorytmiczne z perspektywy użytkownika.\n\nInterfejs powstał w React i TypeScript. Backend napisany w C++ udostępnia logikę przez API oparte na Crow. Taki podział oddziela prezentację danych i interakcję z aplikacją od implementacji algorytmów.\n\nProjekt wykorzystuje również Dockera do uruchamiania środowiska aplikacji. Łączy pracę nad frontendem, backendem i komunikacją pomiędzy nimi w jednym repozytorium, rozwijanym zespołowo w ramach zajęć.",
+        "gallery": {
+          "input": {
+            "title": "Wczytywanie danych i obszar wizualizacji",
+            "alt": "Zrzut projektu Algorytmy i struktury danych: pole wczytywania pliku, pliki testowe, przyciski obliczania przepływu i pusty obszar wizualizacji grafu."
+          },
+          "max-flow": {
+            "title": "Wizualizacja grafu i wynik maksymalnego przepływu",
+            "alt": "Zrzut aplikacji z grafem sieci transportowej, wynikiem maksymalnego przepływu równym 700 oraz przyciskami pobierania, podglądu i filtrowania pliku transportu."
+          }
+        }
       },
       "money-app": {
         "title": "Aplikacja do zarządzania wydatkami i inwestycjami",
-        "description": "Przykładowy aplikacja do zarządzania wydatkami i inwestycjami."
+        "description": "Aplikacja do zarządzania wydatkami i inwestycjami. Frontend w React i TypeScript z TanStack Query komunikuje się z backendem PHP opartym na Symfony.",
+        "details": "Projekt aplikacji internetowej do zarządzania wydatkami i inwestycjami. Jego celem jest połączenie danych finansowych z czytelnym interfejsem, który ułatwia orientację w osobistych finansach.\n\nFrontend powstał w React i TypeScript. TanStack Query odpowiada za obsługę danych pobieranych z serwera i ich pamięć podręczną, a React Router za nawigację pomiędzy widokami. Część interfejsowa komunikuje się z osobnym backendem napisanym w PHP z wykorzystaniem Symfony.\n\nRepozytorium obejmuje obie warstwy aplikacji oraz konfigurację środowiska z Dockerem. Projekt łączy tworzenie interfejsu, integrację z API i pracę nad zapleczem aplikacji w ramach jednego rozwiązania.",
+        "gallery": {
+          "login": {
+            "title": "Logowanie do aplikacji",
+            "alt": "Zrzut My Money: formularz logowania z polami adresu e-mail i hasła, opcją zapamiętania użytkownika oraz linkami odzyskiwania hasła i rejestracji."
+          },
+          "dashboard": {
+            "title": "Panel finansowy — transakcje i inwestycje",
+            "alt": "Zrzut My Money: panel z podsumowaniem wartości majątku, gotówki i inwestycji, tabelami transakcji i inwestycji oraz nawigacją do portfeli i instrumentów."
+          }
+        }
       }
     }
   }

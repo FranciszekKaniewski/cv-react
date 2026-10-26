@@ -1,0 +1,13 @@
+.project-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.625rem;
+}
+
+.project-actions .button {
+    max-width: 100%;
+}
+
+.project-actions .button svg {
+    flex-shrink: 0;
+}

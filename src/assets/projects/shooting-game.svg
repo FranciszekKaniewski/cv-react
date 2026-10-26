@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="bg" x2="800" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#E6E1E6"/><stop offset="1" stop-color="#D1CAD2"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#6D5969" stroke-opacity=".08"/></pattern>
+    <pattern id="arena" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#2C303A"/><path d="M24 0H0V24" stroke="#414651" stroke-width=".7"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dy="12" stdDeviation="18" flood-color="#22241F" flood-opacity=".14"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v450H0z"/><path fill="url(#grid)" d="M0 0h800v450H0z"/>
+  <g filter="url(#shadow)">
+    <rect x="75" y="48" width="650" height="354" rx="14" fill="#F8F7F4"/>
+    <path d="M75 62a14 14 0 0 1 14-14h622a14 14 0 0 1 14 14v30H75z" fill="#22241F"/>
+    <g fill="#70736B"><circle cx="97" cy="70" r="4"/><circle cx="111" cy="70" r="4"/><circle cx="125" cy="70" r="4"/></g>
+    <text x="155" y="75" fill="#C4ADBF" font-family="Consolas,monospace" font-size="13">BATTLE ARENA / WEBSOCKET</text>
+    <rect x="96" y="112" width="384" height="266" rx="5" fill="url(#arena)"/>
+    <path d="M240 248h120v24H240z" fill="#D0B36E" fill-opacity=".35"/><path d="M264 251h72v18h-72z" fill="#E2C788" fill-opacity=".7"/>
+    <rect x="236" y="244" width="32" height="32" rx="3" stroke="#DCE4D6" stroke-width="2"/><rect x="240" y="248" width="24" height="24" rx="2" fill="#9CAF8F"/>
+    <path d="M254 258h7v5h-7z" fill="#F8F7F4"/>
+    <g fill="#C08A8D"><rect x="360" y="248" width="24" height="24" rx="2"/><rect x="168" y="152" width="24" height="24" rx="2"/><rect x="384" y="176" width="24" height="24" rx="2"/></g>
+    <g fill="#F8F7F4"><path d="M363 258h5v5h-5zM178 155h5v5h-5zM394 190h5v5h-5z"/></g>
+    <path d="M96 350h384" stroke="#4F535C"/>
+    <text x="113" y="369" fill="#B2B7BC" font-family="Consolas,monospace" font-size="11">W A S D / MOVE     SPACE / SHOOT</text>
+    <circle cx="515" cy="131" r="4" fill="#7D9972"/><text x="528" y="135" fill="#607555" font-family="Consolas,monospace" font-size="11">CONNECTED</text>
+    <text x="510" y="178" fill="#70736B" font-family="Consolas,monospace" font-size="12">SCOREBOARD</text>
+    <rect x="504" y="195" width="199" height="37" rx="5" fill="#E6EBDD"/>
+    <g font-family="Consolas,monospace" font-size="12"><text x="518" y="218" fill="#546848">01 / YOU</text><text x="673" y="218" fill="#546848">08</text><text x="518" y="258" fill="#8A747D">02 / PLAYER</text><text x="673" y="258" fill="#8A747D">05</text><text x="518" y="298" fill="#8A747D">03 / PLAYER</text><text x="673" y="298" fill="#8A747D">03</text></g>
+    <path d="M510 325h187" stroke="#E3E2DA"/><text x="510" y="355" fill="#8A747D" font-family="Consolas,monospace" font-size="11">ERLANG/OTP + REACT</text>
+  </g>
+</svg>

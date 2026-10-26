@@ -1,0 +1,47 @@
+.technology-filter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 40px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background-color: var(--bg-surface);
+    color: var(--text-sec);
+    font-size: 0.75rem;
+    line-height: 1.4;
+    transition: color 180ms ease, border-color 180ms ease, background-color 180ms ease, box-shadow 180ms ease;
+}
+
+.technology-filter:hover {
+    border-color: var(--filter-led);
+    color: var(--text);
+}
+
+.technology-filter[aria-pressed="true"] {
+    border-color: var(--filter-led);
+    background-color: var(--filter-led-soft);
+    color: var(--filter-led);
+    box-shadow: inset 0 0 10px color-mix(in srgb, var(--filter-led-glow) 9%, transparent),
+        0 0 13px color-mix(in srgb, var(--filter-led-glow) 24%, transparent);
+}
+
+.technology-filter[aria-pressed="true"] .technology-icon {
+    filter: drop-shadow(0 0 4px color-mix(in srgb, var(--filter-led-glow) 65%, transparent));
+}
+
+.technology-filter:focus {
+    outline: none;
+}
+
+.technology-filter:focus-visible {
+    outline: 2px solid var(--filter-led);
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .technology-filter {
+        transition: none;
+    }
+}

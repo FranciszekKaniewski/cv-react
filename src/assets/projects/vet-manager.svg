@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="bg" x2="800" y2="450" gradientUnits="userSpaceOnUse"><stop stop-color="#E0E8E1"/><stop offset="1" stop-color="#C9D6CF"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#516B60" stroke-opacity=".08"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dy="12" stdDeviation="18" flood-color="#22241F" flood-opacity=".14"/></filter>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h800v450H0z"/><path fill="url(#grid)" d="M0 0h800v450H0z"/>
+  <g filter="url(#shadow)">
+    <rect x="75" y="56" width="650" height="338" rx="14" fill="#F8F7F4"/>
+    <path d="M75 70a14 14 0 0 1 14-14h622a14 14 0 0 1 14 14v30H75z" fill="#22241F"/>
+    <g fill="#70736B"><circle cx="97" cy="78" r="4"/><circle cx="111" cy="78" r="4"/><circle cx="125" cy="78" r="4"/></g>
+    <text x="155" y="83" fill="#ACC6B7" font-family="Consolas,monospace" font-size="13">VET MANAGER</text>
+    <path d="M284 100v294" stroke="#E3E2DA"/>
+    <text x="99" y="137" fill="#70736B" font-family="Consolas,monospace" font-size="12">YOUR PETS</text>
+    <rect x="95" y="158" width="171" height="51" rx="6" fill="#DFE8DF"/>
+    <g fill="#A5B8A6"><circle cx="119" cy="183" r="11"/><circle cx="119" cy="245" r="11"/><circle cx="119" cy="307" r="11"/></g>
+    <g fill="#647D69" font-family="Consolas,monospace" font-size="13"><text x="142" y="188">Luna</text><text x="142" y="250">Milo</text><text x="142" y="312">Leo</text></g>
+    <path d="M100 345h158" stroke="#E3E2DA"/><path d="M113 360v12m-6-6h12" stroke="#647D69" stroke-width="2"/>
+    <circle cx="365" cy="179" r="46" fill="#E3EBE3"/>
+    <g fill="#7C9981"><ellipse cx="346" cy="165" rx="6" ry="9" transform="rotate(-25 346 165)"/><ellipse cx="360" cy="156" rx="6" ry="9" transform="rotate(-8 360 156)"/><ellipse cx="375" cy="158" rx="6" ry="9" transform="rotate(15 375 158)"/><ellipse cx="387" cy="170" rx="6" ry="9" transform="rotate(30 387 170)"/><path d="M346 192c0-10 9-23 19-23s24 15 24 25-13 8-24 5-19 3-19-7z"/></g>
+    <text x="433" y="167" fill="#3E594B" font-family="Consolas,monospace" font-size="22">Luna</text>
+    <text x="434" y="192" fill="#849087" font-family="Consolas,monospace" font-size="12">PET RECORD / 001</text>
+    <g font-family="Consolas,monospace" font-size="10" fill="#849087"><text x="319" y="253">NAME</text><text x="519" y="253">SPECIES</text><text x="319" y="320">BIRTHDAY</text><text x="519" y="320">BREED</text></g>
+    <g fill="#EAEDE6"><rect x="315" y="264" width="178" height="32" rx="5"/><rect x="515" y="264" width="178" height="32" rx="5"/><rect x="315" y="331" width="178" height="32" rx="5"/><rect x="515" y="331" width="178" height="32" rx="5"/></g>
+    <g fill="#A5B8A6"><rect x="329" y="277" width="58" height="6" rx="3"/><rect x="529" y="277" width="72" height="6" rx="3"/><rect x="329" y="344" width="96" height="6" rx="3"/><rect x="529" y="344" width="104" height="6" rx="3"/></g>
+  </g>
+</svg>

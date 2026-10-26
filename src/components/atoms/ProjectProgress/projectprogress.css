@@ -1,0 +1,58 @@
+.project-progress {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    overflow: hidden;
+    border-radius: inherit;
+    pointer-events: none;
+}
+
+.project-progress::before,
+.project-progress::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 33.333333%;
+    border-radius: 999px;
+    content: '';
+    animation: project-progress-scan 2.8s ease-in-out infinite alternate;
+}
+
+.project-progress::before {
+    height: 4rem;
+    background: radial-gradient(ellipse at bottom, color-mix(in srgb, var(--in-progress-glow) 24%, transparent), transparent 72%);
+    filter: blur(10px);
+}
+
+.project-progress::after {
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--in-progress-border) 30%, var(--in-progress-glow) 50%, var(--in-progress-border) 70%, transparent);
+    box-shadow: 0 0 12px color-mix(in srgb, var(--in-progress-glow) 65%, transparent);
+}
+
+.budge.project-progress-badge {
+    border-color: color-mix(in srgb, var(--in-progress-border) 35%, transparent);
+    background-color: color-mix(in srgb, var(--in-progress-border) 10%, var(--bg-surface));
+    color: var(--in-progress-text);
+}
+
+.project-progress-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--in-progress-border);
+    box-shadow: 0 0 6px color-mix(in srgb, var(--in-progress-glow) 50%, transparent);
+}
+
+@keyframes project-progress-scan {
+    from { transform: translateX(0); }
+    to { transform: translateX(200%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project-progress::before,
+    .project-progress::after {
+        animation: none;
+        transform: translateX(100%);
+    }
+}
