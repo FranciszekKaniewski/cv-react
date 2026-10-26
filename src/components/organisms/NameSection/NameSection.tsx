@@ -19,11 +19,6 @@ export const NameSection = () => {
                     text={<>{t('welcome.viewProjects')} <span aria-hidden="true">↗</span></>}
                     onClick={() => document.getElementById('projects')?.scrollIntoView()}
                 />
-                <Button
-                    text={<>{t('welcome.downloadCV')} <span aria-hidden="true">↓</span></>}
-                    variant="secondary"
-                    disabled
-                />
             </div>
         </section>
     )

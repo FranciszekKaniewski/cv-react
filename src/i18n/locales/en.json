@@ -20,7 +20,6 @@
     "title": "Franciszek Kaniewski",
     "description": "My developer portfolio.",
     "viewProjects": "View projects",
-    "downloadCV": "Download CV",
     "phone": "Phone"
   },
   "contact": {
@@ -134,8 +133,36 @@
       "vetclinic-ai": {
         "title": "VetClinic AI — veterinary clinic management",
         "description": "A university project developed by a team of six for the “Team Programming” course. Presented in the auditorium of the Faculty of Mathematics and Computer Science at Nicolaus Copernicus University in Toruń.",
-        "details": "VetClinic AI is a veterinary clinic management application project developed by a team of six for the “Team Programming” course at Nicolaus Copernicus University in Toruń. The project was presented in the auditorium of the university’s Faculty of Mathematics and Computer Science.\n\nThe application covers animal and owner records, appointment scheduling and digital medical documentation. I led frontend development and worked on UI/UX design. The frontend uses React and TypeScript, while the backend uses NestJS, TypeORM and MySQL.\n\nThe linked website presents the project’s goals, team, development progress and documentation. The gallery contains an actual screenshot of this presentation website.",
+        "details": "VetClinic AI is a veterinary clinic management application project developed by a team of six for the “Team Programming” course at Nicolaus Copernicus University in Toruń. The project was presented in the auditorium of the university’s Faculty of Mathematics and Computer Science.\n\nThe application covers animal and owner records, appointment scheduling and digital medical documentation. I led frontend development and worked on UI/UX design. The frontend uses React and TypeScript, while the backend uses NestJS, TypeORM and MySQL.\n\nThe linked website presents the project’s goals, team, development progress and documentation. The gallery contains actual application screenshots: the clinic and doctor dashboards, schedule, appointment workspace, pharmacy, staff list and light theme. The presentation website screenshot is also included.",
         "gallery": {
+          "dashboard": {
+            "title": "Clinic dashboard — appointments and staff",
+            "alt": "A VetClinic AI screenshot in the dark theme showing today's appointments with statuses and payments, quick actions and staff availability."
+          },
+          "schedule": {
+            "title": "Weekly clinic schedule",
+            "alt": "A VetClinic AI screenshot showing a weekly appointment calendar with times, a doctor list, filters and appointment status summaries."
+          },
+          "doctor": {
+            "title": "Doctor dashboard — assigned appointments",
+            "alt": "A VetClinic AI screenshot showing a doctor's appointments for today, patient information, statuses and a control to start an appointment."
+          },
+          "visit": {
+            "title": "Appointment workspace and patient records",
+            "alt": "A VetClinic AI screenshot showing an appointment in progress with animal and owner records, vital signs, medical history, examination, diagnosis, diagnostic tests and treatment sections."
+          },
+          "pharmacy": {
+            "title": "Pharmacy — stock levels and expiry dates",
+            "alt": "A VetClinic AI screenshot showing medicines and products with quantities, expiry dates, availability statuses and stock and expiry alerts."
+          },
+          "staff": {
+            "title": "Staff list and roles",
+            "alt": "A VetClinic AI screenshot showing staff members with roles and availability statuses, a search field and role filters."
+          },
+          "light-theme": {
+            "title": "Light theme and appearance selection",
+            "alt": "A VetClinic AI screenshot in the light theme showing the clinic dashboard with appointments and an open menu for theme and user status selection."
+          },
           "presentation": {
             "title": "VetClinic AI presentation website",
             "alt": "An actual screenshot of the VetClinic AI presentation website with the project description, feature list and Nicolaus Copernicus University in Toruń logo."

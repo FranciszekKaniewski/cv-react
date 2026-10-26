@@ -20,7 +20,6 @@
     "title": "Franciszek Kaniewski",
     "description": "Moje portfolio programistyczne.",
     "viewProjects": "Zobacz projekty",
-    "downloadCV": "Pobierz CV",
     "phone": "Telefon"
   },
   "contact": {
@@ -134,8 +133,36 @@
       "vetclinic-ai": {
         "title": "VetClinic AI — zarządzanie kliniką weterynaryjną",
         "description": "Projekt uczelniany realizowany w sześcioosobowym zespole na zajęciach „Programowanie zespołowe”. Zaprezentowany w auli Wydziału Matematyki i Informatyki UMK w Toruniu.",
-        "details": "VetClinic AI to projekt aplikacji do zarządzania kliniką weterynaryjną, realizowany w sześcioosobowym zespole w ramach zajęć „Programowanie zespołowe” na Uniwersytecie Mikołaja Kopernika w Toruniu. Projekt został zaprezentowany w auli Wydziału Matematyki i Informatyki UMK.\n\nAplikacja obejmuje ewidencję zwierząt i ich właścicieli, umawianie wizyt oraz cyfrową dokumentację medyczną. Odpowiadałem za prowadzenie prac nad frontendem i projektowanie UI/UX. Frontend wykorzystuje React i TypeScript, a backend NestJS, TypeORM i MySQL.\n\nPodlinkowana strona prezentuje założenia projektu, zespół, przebieg prac i dokumentację. Galeria zawiera rzeczywisty zrzut tej strony.",
+        "details": "VetClinic AI to projekt aplikacji do zarządzania kliniką weterynaryjną, realizowany w sześcioosobowym zespole w ramach zajęć „Programowanie zespołowe” na Uniwersytecie Mikołaja Kopernika w Toruniu. Projekt został zaprezentowany w auli Wydziału Matematyki i Informatyki UMK.\n\nAplikacja obejmuje ewidencję zwierząt i ich właścicieli, umawianie wizyt oraz cyfrową dokumentację medyczną. Odpowiadałem za prowadzenie prac nad frontendem i projektowanie UI/UX. Frontend wykorzystuje React i TypeScript, a backend NestJS, TypeORM i MySQL.\n\nPodlinkowana strona prezentuje założenia projektu, zespół, przebieg prac i dokumentację. Galeria zawiera rzeczywiste zrzuty aplikacji: panel przychodni i lekarza, terminarz, obsługę wizyty, aptekę, listę pracowników i jasny motyw. Zachowano również zrzut strony prezentacyjnej.",
         "gallery": {
+          "dashboard": {
+            "title": "Panel przychodni — wizyty i personel",
+            "alt": "Zrzut VetClinic AI w ciemnym motywie: dzisiejsze wizyty ze statusami i płatnościami, szybkie akcje oraz lista dostępności personelu."
+          },
+          "schedule": {
+            "title": "Tygodniowy terminarz przychodni",
+            "alt": "Zrzut VetClinic AI: tygodniowy kalendarz wizyt z godzinami, listą lekarzy, filtrowaniem i podsumowaniami statusów wizyt."
+          },
+          "doctor": {
+            "title": "Panel lekarza — własne wizyty",
+            "alt": "Zrzut VetClinic AI: panel lekarza z jego wizytami na dziś, danymi pacjentów, statusami i możliwością rozpoczęcia wizyty."
+          },
+          "visit": {
+            "title": "Obsługa wizyty i dokumentacja pacjenta",
+            "alt": "Zrzut VetClinic AI: wizyta w toku z kartą zwierzęcia i właściciela, parametrami życiowymi, wywiadem, badaniem klinicznym, diagnozą, diagnostyką i leczeniem."
+          },
+          "pharmacy": {
+            "title": "Apteka — stany magazynowe i terminy ważności",
+            "alt": "Zrzut VetClinic AI: lista leków i produktów z ilościami, datami ważności, statusami dostępności oraz alertami o zapasach i przeterminowaniu."
+          },
+          "staff": {
+            "title": "Lista pracowników i role",
+            "alt": "Zrzut VetClinic AI: lista pracowników z rolami i statusami dostępności, wyszukiwarką oraz filtrami stanowisk."
+          },
+          "light-theme": {
+            "title": "Jasny motyw i wybór wyglądu",
+            "alt": "Zrzut VetClinic AI w jasnym motywie: panel przychodni z listą wizyt i otwartym menu wyboru motywu oraz statusu użytkownika."
+          },
           "presentation": {
             "title": "Strona prezentacyjna VetClinic AI",
             "alt": "Rzeczywisty zrzut strony prezentacyjnej VetClinic AI z opisem projektu, listą funkcji i logo Uniwersytetu Mikołaja Kopernika w Toruniu."

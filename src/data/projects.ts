@@ -21,6 +21,13 @@ import calendarWeek from '../assets/projects/calendar-week.jpg';
 import calendarMonth from '../assets/projects/calendar-month.jpg';
 import calendarTask from '../assets/projects/calendar-task.jpg';
 import vetClinicPresentation from '../assets/projects/vetclinic-ai-presentation.jpg';
+import vetClinicDashboard from '../assets/projects/vetclinic-ai-dashboard.png';
+import vetClinicSchedule from '../assets/projects/vetclinic-ai-schedule.png';
+import vetClinicDoctor from '../assets/projects/vetclinic-ai-doctor.png';
+import vetClinicVisit from '../assets/projects/vetclinic-ai-visit.png';
+import vetClinicPharmacy from '../assets/projects/vetclinic-ai-pharmacy.png';
+import vetClinicStaff from '../assets/projects/vetclinic-ai-staff.png';
+import vetClinicLightTheme from '../assets/projects/vetclinic-ai-light-theme.png';
 import type {TechnologyId} from './technologies';
 
 export const projectCategories = ['all', 'university', 'courses', 'personal'] as const;
@@ -52,8 +59,17 @@ export const projects: Project[] = [
         createdYear: 2025,
         endYear: 2026,
         category: 'university',
-        image: vetClinicPresentation,
-        gallery: [{id: 'presentation', src: vetClinicPresentation}],
+        image: vetClinicDashboard,
+        gallery: [
+            {id: 'dashboard', src: vetClinicDashboard},
+            {id: 'schedule', src: vetClinicSchedule},
+            {id: 'doctor', src: vetClinicDoctor},
+            {id: 'visit', src: vetClinicVisit},
+            {id: 'pharmacy', src: vetClinicPharmacy},
+            {id: 'staff', src: vetClinicStaff},
+            {id: 'light-theme', src: vetClinicLightTheme},
+            {id: 'presentation', src: vetClinicPresentation},
+        ],
         technologies: ['typescript', 'react', 'nodejs', 'nestjs', 'typeorm', 'mysql'],
         featured: true,
         group: true,
